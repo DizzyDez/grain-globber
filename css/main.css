@@ -10,22 +10,26 @@ html {
 .grains {
   margin: 0;
   padding: 0;
-
   list-style-type: none;
 }
 
 .grains li {
-
+  display: block;
 }
 
 .grains img {
   width: 100px;
+  float: left;
+  clear: both;
+  margin-bottom: 1rem;
+  margin-right: .75rem;
 }
 
 .grains h2 {
-
+  font-size: 1rem;
 }
 
 .grains p {
-
+  font-style: oblique;
+  margin-bottom: 3rem;
 }
